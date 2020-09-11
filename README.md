@@ -1,6 +1,8 @@
 # Group Formation Tool
 
-Group Formation Tool is a learning management system based on Spring Boot framework. 
+Group Formation Tool is an online learning management system based on Spring Boot framework and written using Java, HTML, CSS and Bootstrap.
+
+It helps maintain relationship between Admin, Instructors, TAs and Students. Spring Security is implemented for efficient role and session management. Admin can add new subjects and assign users as Instructors. Instructors can assign TAs and enroll students using a CSV file. TAs and Instructors create survey forms having various types of fields, to be filled by students. Then the instructor defines group size and selects the matching criteria for each survey question (similar, not similar, etc.), based on that groups are formed.
 
 
 # Installation
